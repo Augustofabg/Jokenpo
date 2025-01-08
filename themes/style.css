@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #8e7fdb;
+}
+
+main {
+  display: block;
+  width: 396px;
+  height: 385px;
+  background: rgba(144, 123, 179, 0.507);
+  margin: auto;
+  border-radius: 46px;
+  border: none;
+  box-shadow: 8px 7px 5px 5px rgba(0, 0, 0, 0.25);
+  margin-top: 10%;
+}
+
+.game {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.tesoura,
+.pedra,
+.papel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background: #7f72bea9;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: -150px;
+}
+
+.tesoura:hover,
+.pedra:hover,
+.papel:hover {
+  background: #7f72be;
+}
+
+.tesoura:active,
+.pedra:active,
+.papel:active {
+  background: #625b86;
+}
+
+.pontuacao1,
+.pontuacao2,
+.number1,
+.number2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 289px;
+  margin: -80px;
+  height: 85px;
+  border-radius: 9px;
+  cursor: pointer;
+  background: #8174c2;
+  font-weight: 700;
+  margin-top: -205px;
+  margin-bottom: 147px;
+  margin-left: 57px;
+  box-shadow: 0px 11px 5px -5px rgba(0, 0, 0, 0.25);
+}
+
+.resultado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 127px;
+  background: #8174c2;
+  margin: auto;
+  margin-top: 37px;
+  border-radius: 35px;
+  padding-right: 65px;
+  padding-top: 16px;
+  box-shadow: 0px 11px 5px -5px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+
+.jogadas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: -52px;
+  margin-top: -109px;
+  margin-left: 34px;
+}
+
+.vencedor {
+  margin: -60px;
+  margin-top: -32px;
+  margin-left: -66px;
+  font-size: 21px;
+  font-weight: 800;
+  color: rgba(88, 53, 184, 0.616);
+}
+
+.x {
+  margin-right: -65px;
+  margin-left: -65px;
+  margin-bottom: -2px;
+  font-weight: 900;
+  color: rgba(112, 74, 218, 0.582);
+  font-size: 36px;
+}
+
+.oponente {
+  font-weight: 900;
+  color: rgba(112, 74, 218, 0.582);
+  font-size: 32px;
+}
+
+.voce {
+  font-weight: 900;
+  color: rgba(112, 74, 218, 0.582);
+  font-size: 32px;
+}
