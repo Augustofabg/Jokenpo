@@ -135,3 +135,23 @@ main {
   color: rgba(112, 74, 218, 0.582);
   font-size: 32px;
 }
+
+@media screen and (max-width: 500px) {
+  main {
+    margin-top: 161px;
+    width: 298px;
+    height: 290px;
+    margin-left: 28px;
+  }
+
+  .pontuacao1,
+  .pontuacao2,
+  .number1,
+  .number2 {
+    width: 221px;
+    height: 68px;
+    margin-top: -161px;
+    margin-bottom: 115px;
+    margin-left: 40px;
+  }
+}
