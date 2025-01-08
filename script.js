@@ -24,9 +24,11 @@ jogadas.forEach((jogada) => {
     Ponts1.innerHTML = mathrandom === 2 ? parseInt(Ponts1.innerHTML) + 1 : Ponts1.innerHTML;
     Ponts2.innerHTML = mathrandom === 1 ? parseInt(Ponts2.innerHTML) + 1 : Ponts2.innerHTML;
     
+    
     voce.innerHTML = resultados[escolha][0];
     oponente.innerHTML = resultados[escolha][mathrandom];
     
+
     vencedor.innerHTML = mensagens[mathrandom];
     vencedor.style.marginLeft = margens[mathrandom];
     result.style.paddingRight = paddings[mathrandom];
